@@ -13,6 +13,7 @@ img {
  max-width:350px;}
  html body div.row div#alaune.col-lg-12 div.rssBody ul li.rssRow div div div{
    height:auto;
+   max-width:380px;
    position:relative;
  }
 div.row div#alaune.col-lg-12 div.rssBody ul li.rssRow div div div img{
