@@ -1,6 +1,25 @@
+var $container  = $( '#flip' ),
+                $pages      = $container.children().hide();
+
+            Modernizr.load({
+                test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+                yep : ['js/jquery.tmpl.min.js','js/jquery.history.js','js/core.string.js','js/jquery.touchSwipe-1.2.5.js','js/jquery.flips.js'],
+                nope: 'css/fallback.css',
+                callback : function( url, result, key ) {
+
+                    if( url === 'css/fallback.css' ) {
+                        $pages.show();
+                    }
+                    else if( url === 'js/jquery.flips.js' ) {
+                        $container.flips();
+                    }
+
+                }
+            });
+
                   $(document).ready(function () {
-//google font
-                    WebFontConfig = {
+$('div.content div.inner div.coverss div.rssBody ul').cycle();
+WebFontConfig = {
     google: { families: [ 'Ubuntu::latin' ] }
   };
   (function() {
@@ -12,16 +31,10 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
   })();
-//carousel
-$('.rssRow ').carousel();
-                    //trouver les images
-                    jQuery('html body div.row div#alaune.col-lg-12 div.rssBody ul li.rssRow div div div img').each(function(){
- jQuery(this).addClass("showtime");
-                    });
 
-                                                      //a la une
-                        $('#alaune').rssfeed('http://rcliane.cerap-inades.org/rss-actus.xml', {
+                        $('.coverss').rssfeed('http://rcliane.cerap-inades.org/rss-actus.xml', {
                                 snippet: false,
+                                limit:5
                             });
                           //agenda - actualites des coordinations reginales
                         $('#agenda').rssfeed('http://rcliane.cerap-inades.org/rss-coord.xml', {
