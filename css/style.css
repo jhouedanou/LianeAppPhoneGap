@@ -1,6 +1,12 @@
 div.coverss div.rssBody ul{
 
 }
+.feedEkList{width:450px; list-style:none outside none;background-color:#FFFFFF; border:1px solid #D3CAD7; padding:4px 6px; color:#3E3E3E;}
+.feedEkList li{border-bottom:1px solid #D3CAD7; padding:5px;}
+.feedEkList li:last-child{border-bottom:none;}
+.itemTitle a{font-weight:bold; color:#4EBAFF !important; text-decoration:none }
+.itemTitle a:hover{ text-decoration:underline }
+.itemDate{font-size:11px;color:#AAAAAA;}
 div.page div.front div.outer div.content div.inner div.coverss, div.page div.front div.outer div.content div.inner{
   margin:0 !important;
   padding:0 !important;
@@ -310,12 +316,7 @@ a.f-ref{
   z-index:1000;
 }
 .f-title{
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 50px;
-  text-align:center;
-  width: 100%;
+
 }
 .f-title h2{
   line-height: 50px;

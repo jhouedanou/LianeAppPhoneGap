@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.houedanou.rcliane"
-        version = "1.0.0">
+        version = "1.2.0">
     <name>RC Liane</name>
     <description>Une simple application qui lit les flux rss du site web de LIANE </description>
     <author href="http://houedanou.com" email="jeanluc@houedanou.com">
