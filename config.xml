@@ -2,9 +2,9 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id = "com.houedanou.rcliane"
-        version = "1.0.0">
+        version = "1.3.0">
     <name>RC Liane</name>
-    <description>Une simple application qui lit les flux rss du site web de LIANE </description>
+    <description>Une simple application multi plateformes pour informer les activités du programme LIANE</description>
     <author href="http://houedanou.com" email="jeanluc@houedanou.com">
         Jean Luc Houedanou
     </author>
@@ -46,7 +46,7 @@ A list of available plugins are available at https://build.phonegap.com/docs/plu
     <icon src="ico/logqo.png"  gap:platform="android" gap:density="ldpi" />
     <icon src="ico/logqo.png"  gap:platform="android" gap:density="mdpi" />
     <icon src="ico/logqo.png"  gap:platform="android" gap:density="hdpi" />
-    <iconsrc="ico/logqo.png"  gap:platform="android" gap:density="xhdpi" />
+    <icon src="ico/logqo.png"  gap:platform="android" gap:density="xhdpi" />
     <icon src="ico/logqo.png"  gap:platform="blackberry" />
     <icon src="ico/logqo.png" gap:platform="blackberry" gap:state="hover"/>
     <icon src="ico/logqo.png" gap:platform="ios" width="57" height="57" />
@@ -58,16 +58,16 @@ A list of available plugins are available at https://build.phonegap.com/docs/plu
     <icon src="ico/logqo.png"  gap:platform="winphone" gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="ico/logqo.jpg" gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="ico/logqo.jpg" gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="ico/logqo.jpg" gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="ico/logqo.jpg" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="ico/logqo.jpg" gap:platform="blackberry" />
-    <gap:splash src="ico/logqo.jpg" gap:platform="ios" width="320" height="480" />
-    <gap:splash  src="ico/logqo.jpg" gap:platform="ios" width="640" height="960" />
-    <gap:splash  src="ico/logqo.jpg" gap:platform="ios" width="768" height="1024" />
-    <gap:splash  src="ico/logqo.jpg" gap:platform="ios" width="1024" height="768" />
-    <gap:splash  src="ico/logqo.jpg" gap:platform="winphone" />
+    <gap:splash src="ico/splash.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="ico/splash.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="ico/splash.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="ico/splash.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="ico/splash.png" gap:platform="blackberry" />
+    <gap:splash src="ico/splash.png" gap:platform="ios" width="320" height="480" />
+    <gap:splash  src="ico/splash.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash  src="ico/splash.png" gap:platform="ios" width="768" height="1024" />
+    <gap:splash  src="ico/splash.png" gap:platform="ios" width="1024" height="768" />
+    <gap:splash  src="ico/splash.png" gap:platform="winphone" />
 
     <!--
 Define access to external domains.
